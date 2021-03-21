@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+nav {
+  background: #333;
+  padding: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  color: rgb(2, 162, 255);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.card {
+  background-color: rgb(2, 162, 255);
+  color: #fff;
+  padding: 1rem;
+}
+
+.card ul {
+  list-style-type: none;
+}
+
+.card ul li {
+  line-height: 1.8rem;
+}
